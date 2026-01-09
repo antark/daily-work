@@ -1,0 +1,26 @@
+1. 如何打开JSON配置文件： Shift + Command + P，选择 Preferences -> Open User Settings (JSON) 
+一个包含字体大小、字体、行间距以及模块边框的示例：
+{
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.lineHeight": 1.7,
+    "workbench.colorTheme": "Default Light Modern",
+    "workbench.iconTheme": "material-icon-theme",
+    "python.autoComplete.extraPaths": [],
+    "window.zoomLevel": 0,
+    "workbench.colorCustomizations": {
+        // --- 强制加深各个区块的边框线为纯黑色 ---
+        "sideBar.border": "#949494", // 侧边栏（文件树）右侧边框
+        "activityBar.border": "#949494", // 最左侧图标栏边框
+        "editorGroup.border": "#949494", // 编辑器分屏时的中间分割线
+        "panel.border": "#949494", // 底部终端/输出栏的顶边框
+        "statusBar.border": "#949494", // 最底部状态栏的顶边框
+        "editorGroupHeader.tabsBorder": "#949494", // 顶部标签页下方的横线
+        // --- 额外建议：增加对比度 ---
+        "tab.activeBorder": "#3d7eff", // 当前打开的文件标签下方加一条蓝线
+        "input.border": "#333333" // 让搜索框和输入框的边框也更明显
+    }
+}
